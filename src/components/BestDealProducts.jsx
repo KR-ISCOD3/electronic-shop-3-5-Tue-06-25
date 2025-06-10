@@ -39,7 +39,7 @@ function BestDealProducts() {
                                                 {v.description}
                                             </p>
                                             <p className='text-orange-600 text-xl'>Rating {v.rating}</p>
-                                            <button className='border px-10 py-3 rounded-3xl cursor-pointer hover:bg-orange-600 hover:text-white duration-300 mt-3'>
+                                            <button className='border px-5 sm:px-10 py-3 rounded-3xl cursor-pointer hover:bg-orange-600 hover:text-white duration-300 mt-3'>
                                                 Add Cart
                                             </button>
                                         </div>
