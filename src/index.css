@@ -10,8 +10,13 @@
 }
 
 
-.bg-img{
+.bg-img
+,.bg-img-2{
   background-image: url(./assets/image/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+.bg-img-2{
+  background-image: url(./assets/image/bg2.png);
+  background-attachment: fixed;
 }

@@ -1,9 +1,8 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import categories from '../data/categories'
-import ProductContext from '../store/ProductContext'
+
 
 function ShopCategories() {
-  const {items} = useContext(ProductContext)
 
   return (
     <div className='w-full mt-4 lg:mt-24'>
